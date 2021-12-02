@@ -32,7 +32,6 @@ const AddTransactionModal = ({ open, handleBucketClick, handleClose }) => {
               <Button
                 key={bucket.name}
                 onClick={() => handleBucketClick(bucket)}
-                variant="outlined"
               >
                 {bucket.name}
               </Button>
