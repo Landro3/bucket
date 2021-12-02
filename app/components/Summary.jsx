@@ -107,6 +107,7 @@ const Summary = () => {
       bottom="0"
       height="250px"
       p={2}
+      borderTop="1px solid #1d2a40"
     >
       <Box>
         <Box display="flex" width="50%">
