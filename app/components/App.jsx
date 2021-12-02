@@ -8,7 +8,7 @@ import { setErrors, setItems } from '../slices/plaid';
 
 import { Box } from '@mui/material';
 
-import Header from './Header';
+// import Header from './Header';
 import Sidebar from './Sidebar';
 import Summary from './Summary';
 import Transactions from './Transactions';
@@ -55,7 +55,7 @@ const App = () => {
         open={errorModal}
         handleClose={() => setErrorModal(false)}
       />
-      <Header />
+      {/* <Header /> */}
       <Sidebar />
       <Transactions />
       <Summary />
