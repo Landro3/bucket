@@ -20,9 +20,9 @@ const SettingsModal = ({ open, handleClose }) => {
     setTab('accounts');
   };
 
-  const handleSomethingElse = () => {
-    setTab('something else');
-  };
+  // const handleSomethingElse = () => {
+  //   setTab('something else');
+  // };
 
   return (
     <Dialog maxWidth="md" open={open} fullWidth>
@@ -46,12 +46,12 @@ const SettingsModal = ({ open, handleClose }) => {
               Accounts
             </Box>
           </Button>
-          <Button
+          {/* <Button
             onClick={handleSomethingElse}
             variant={tab === 'something else' ? 'contained' : 'text'}
           >
             <Box width="100%" textAlign="left">Something Else</Box>
-          </Button>
+          </Button> */}
         </Box>
         <Box
           width="800px"
