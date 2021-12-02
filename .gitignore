@@ -3,3 +3,4 @@ dist
 main.js
 .env
 scripts
+.DS_Store
