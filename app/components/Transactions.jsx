@@ -105,7 +105,7 @@ const Transactions = () => {
         display="flex"
         flexDirection="column"
         left="300px"
-        top="30px"
+        top="0"
         right="0"
         bottom="250px"
         m={2}

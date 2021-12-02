@@ -52,7 +52,7 @@ const Sidebar = () => {
       />
       <Stack
         position='fixed'
-        top='30px'
+        top='0'
         left='0'
         bottom='0'
         width='300px'
